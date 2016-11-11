@@ -157,7 +157,7 @@
       {% endif %}
 
       {# PAGE CONTENT #}
-      <div class="wy-nav-content">
+      <div class="wy-nav-content{% if theme_esdc_nav %} esdc-nav-content{% endif %}">
         <div class="rst-content">
           {% include "breadcrumbs.html" %}
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">

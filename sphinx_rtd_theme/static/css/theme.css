@@ -4632,6 +4632,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   font-size: 90%;
 }
 
+.esdc-nav-content {
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .wy-body-for-nav {
     background: #fcfcfc;
@@ -4679,6 +4683,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   #esdc-nav {
     display: none;
   }
+
+  .esdc-nav-content {
+    margin-top: 0;
+  }
 }
 @media screen and (min-width: 1400px) {
   .wy-nav-content-wrap {
@@ -4701,6 +4709,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 
   #esdc-nav {
     display: none;
+  }
+
+  .esdc-nav-content {
+    margin-top: 0;
   }
 }
 .rst-versions {
