@@ -4675,6 +4675,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
     height: 100%;
     overflow: hidden;
   }
+
+  #esdc-nav {
+    display: none;
+  }
 }
 @media screen and (min-width: 1400px) {
   .wy-nav-content-wrap {
@@ -4693,6 +4697,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 
   .wy-nav-content-wrap {
     margin-left: 0;
+  }
+
+  #esdc-nav {
+    display: none;
   }
 }
 .rst-versions {
@@ -5133,6 +5141,38 @@ span[id*='MathJax-Span'] {
   font-style: normal;
   font-weight: 700;
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/RobotoSlab-Bold.ttf) format("truetype");
+}
+#esdc-nav {
+  background-color: #404040;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#esdc-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#esdc-nav ul li {
+  display: inline-block;
+}
+#esdc-nav ul li:hover {
+  background-color: #333;
+}
+#esdc-nav ul li.active {
+  background-color: #333;
+}
+#esdc-nav ul li a, #esdc-nav ul li a:visited {
+  color: #CCC;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#esdc-nav-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 /*# sourceMappingURL=theme.css.map */

@@ -143,6 +143,18 @@
         {% endblock %}
       </nav>
 
+      {% if theme_esdc_nav %}
+      <div id="esdc-nav">
+        <div id="esdc-nav-wrapper">
+          <ul>
+            <li><a href="https://www.erigones.com">Enterprise Edition</a></li>
+            <li><a href="https://danubecloud.org">Community Edition</a></li>
+            <li><a href="https://docs.danubecloud.org/user-guide">User Guide</a></li>
+            <li><a href="https://docs.danubecloud.org/api-reference">API Reference</a></li>
+          </ul>
+        </div>
+      </div>
+      {% endif %}
 
       {# PAGE CONTENT #}
       <div class="wy-nav-content">
