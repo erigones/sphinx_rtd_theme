@@ -4632,10 +4632,6 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   font-size: 90%;
 }
 
-.esdc-nav-content {
-  margin-top: 30px;
-}
-
 @media screen and (max-width: 768px) {
   .wy-body-for-nav {
     background: #fcfcfc;
@@ -4679,14 +4675,6 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
     height: 100%;
     overflow: hidden;
   }
-
-  #esdc-nav {
-    display: none;
-  }
-
-  .esdc-nav-content {
-    margin-top: 0;
-  }
 }
 @media screen and (min-width: 1400px) {
   .wy-nav-content-wrap {
@@ -4709,10 +4697,6 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 
   #esdc-nav {
     display: none;
-  }
-
-  .esdc-nav-content {
-    margin-top: 0;
   }
 }
 .rst-versions {
@@ -5155,10 +5139,11 @@ span[id*='MathJax-Span'] {
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/RobotoSlab-Bold.ttf) format("truetype");
 }
 #esdc-nav {
-  background-color: #404040;
+  background-color: #343131;
   position: fixed;
   width: 100%;
-  top: 0;
+  bottom: 0;
+  opacity: 0.9;
 }
 #esdc-nav ul {
   list-style-type: none;
@@ -5169,10 +5154,10 @@ span[id*='MathJax-Span'] {
   display: inline-block;
 }
 #esdc-nav ul li:hover {
-  background-color: #333;
+  background-color: #444;
 }
 #esdc-nav ul li.active {
-  background-color: #333;
+  background-color: #444;
 }
 #esdc-nav ul li a, #esdc-nav ul li a:visited {
   color: #CCC;
@@ -5182,7 +5167,7 @@ span[id*='MathJax-Span'] {
 }
 
 #esdc-nav-wrapper {
-  width: 960px;
+  width: 800px;
   margin: 0 auto;
   text-align: left;
 }
