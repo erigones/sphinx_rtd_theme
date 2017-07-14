@@ -344,15 +344,15 @@ big, small {
 }
 
 /*!
- *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.6.3");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -367,7 +367,7 @@ big, small {
 
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
-  font-size: 1.33333em;
+  font-size: 1.3333333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
@@ -389,13 +389,13 @@ big, small {
 }
 
 .fa-fw {
-  width: 1.28571em;
+  width: 1.2857142857em;
   text-align: center;
 }
 
 .fa-ul {
   padding-left: 0;
-  margin-left: 2.14286em;
+  margin-left: 2.1428571429em;
   list-style-type: none;
 }
 .fa-ul > li {
@@ -404,13 +404,13 @@ big, small {
 
 .fa-li {
   position: absolute;
-  left: -2.14286em;
-  width: 2.14286em;
-  top: 0.14286em;
+  left: -2.1428571429em;
+  width: 2.1428571429em;
+  top: 0.1428571429em;
   text-align: center;
 }
 .fa-li.fa-lg {
-  left: -1.85714em;
+  left: -1.8571428571em;
 }
 
 .fa-border {
@@ -2730,6 +2730,7 @@ big, small {
 }
 
 .fa-battery-4:before,
+.fa-battery:before,
 .fa-battery-full:before {
   content: "";
 }
@@ -3184,6 +3185,184 @@ big, small {
 .fa-fa:before,
 .fa-font-awesome:before {
   content: "";
+}
+
+.fa-handshake-o:before {
+  content: "";
+}
+
+.fa-envelope-open:before {
+  content: "";
+}
+
+.fa-envelope-open-o:before {
+  content: "";
+}
+
+.fa-linode:before {
+  content: "";
+}
+
+.fa-address-book:before {
+  content: "";
+}
+
+.fa-address-book-o:before {
+  content: "";
+}
+
+.fa-vcard:before,
+.fa-address-card:before {
+  content: "";
+}
+
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: "";
+}
+
+.fa-user-circle:before {
+  content: "";
+}
+
+.fa-user-circle-o:before {
+  content: "";
+}
+
+.fa-user-o:before {
+  content: "";
+}
+
+.fa-id-badge:before {
+  content: "";
+}
+
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: "";
+}
+
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: "";
+}
+
+.fa-quora:before {
+  content: "";
+}
+
+.fa-free-code-camp:before {
+  content: "";
+}
+
+.fa-telegram:before {
+  content: "";
+}
+
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: "";
+}
+
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: "";
+}
+
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: "";
+}
+
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: "";
+}
+
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: "";
+}
+
+.fa-shower:before {
+  content: "";
+}
+
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: "";
+}
+
+.fa-podcast:before {
+  content: "";
+}
+
+.fa-window-maximize:before {
+  content: "";
+}
+
+.fa-window-minimize:before {
+  content: "";
+}
+
+.fa-window-restore:before {
+  content: "";
+}
+
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: "";
+}
+
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: "";
+}
+
+.fa-bandcamp:before {
+  content: "";
+}
+
+.fa-grav:before {
+  content: "";
+}
+
+.fa-etsy:before {
+  content: "";
+}
+
+.fa-imdb:before {
+  content: "";
+}
+
+.fa-ravelry:before {
+  content: "";
+}
+
+.fa-eercast:before {
+  content: "";
+}
+
+.fa-microchip:before {
+  content: "";
+}
+
+.fa-snowflake-o:before {
+  content: "";
+}
+
+.fa-superpowers:before {
+  content: "";
+}
+
+.fa-wpexplorer:before {
+  content: "";
+}
+
+.fa-meetup:before {
+  content: "";
 }
 
 .sr-only {
@@ -3747,7 +3926,7 @@ input, select, textarea {
 .wy-control-group .wy-form-full {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576515979%;
   width: 100%;
   margin-right: 0;
 }
@@ -3758,8 +3937,8 @@ input, select, textarea {
 .wy-control-group .wy-form-halves {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%;
 }
 .wy-control-group .wy-form-halves:last-child {
   margin-right: 0;
@@ -3774,8 +3953,8 @@ input, select, textarea {
 .wy-control-group .wy-form-thirds {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%;
 }
 .wy-control-group .wy-form-thirds:last-child {
   margin-right: 0;
@@ -3985,18 +4164,27 @@ input[type="radio"][disabled], input[type="checkbox"][disabled] {
 }
 
 .wy-switch {
+  position: relative;
+  display: block;
+  height: 24px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.wy-switch:before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
   width: 36px;
   height: 12px;
-  margin: 12px 0;
-  position: relative;
   border-radius: 4px;
   background: #ccc;
-  cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.wy-switch:before {
+.wy-switch:after {
   position: absolute;
   content: "";
   display: block;
@@ -4010,28 +4198,26 @@ input[type="radio"][disabled], input[type="checkbox"][disabled] {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.wy-switch:after {
-  content: "false";
+.wy-switch span {
   position: absolute;
   left: 48px;
   display: block;
   font-size: 12px;
   color: #ccc;
+  line-height: 1;
 }
 
-.wy-switch.active {
+.wy-switch.active:before {
   background: #1e8449;
 }
-.wy-switch.active:before {
+.wy-switch.active:after {
   left: 24px;
   background: #27AE60;
 }
-.wy-switch.active:after {
-  content: "true";
-}
 
-.wy-switch.disabled, .wy-switch.active.disabled {
+.wy-switch.disabled {
   cursor: not-allowed;
+  opacity: 0.8;
 }
 
 .wy-control-group.wy-control-group-error .wy-form-message, .wy-control-group.wy-control-group-error > label {
@@ -4927,7 +5113,7 @@ div[class^='highlight'] pre {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 80%;
-  color: #555;
+  color: #6f6f6f;
   white-space: nowrap;
 }
 .wy-menu-vertical ul {
@@ -5118,7 +5304,7 @@ div[class^='highlight'] pre {
   width: auto;
   border-radius: 0;
   max-width: 100%;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
 }
 .wy-side-nav-search > a.icon img.logo, .wy-side-nav-search .wy-dropdown > a.icon img.logo {
   margin-top: 0.85em;
@@ -5263,7 +5449,7 @@ div[class^='highlight'] pre {
 }
 
 footer {
-  color: #999;
+  color: gray;
 }
 footer p {
   margin-bottom: 12px;
@@ -5274,11 +5460,14 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   font-size: 1em;
   background: none;
   border: none;
-  color: #999;
+  color: gray;
 }
 
 .rst-footer-buttons {
   *zoom: 1;
+}
+.rst-footer-buttons:before, .rst-footer-buttons:after {
+  width: 100%;
 }
 .rst-footer-buttons:before, .rst-footer-buttons:after {
   display: table;
@@ -5504,17 +5693,12 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   .rst-versions.shift {
     display: block;
   }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
 .rst-content img {
   max-width: 100%;
   height: auto !important;
 }
-.rst-content .highlight > pre {
+.rst-content .highlight > pre, .rst-content .linenodiv > pre {
   line-height: normal;
 }
 .rst-content div.figure {
@@ -5592,6 +5776,9 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 .rst-content h1:hover .headerlink, .rst-content h2:hover .headerlink, .rst-content .toctree-wrapper p.caption:hover .headerlink, .rst-content h3:hover .headerlink, .rst-content h4:hover .headerlink, .rst-content h5:hover .headerlink, .rst-content h6:hover .headerlink, .rst-content dl dt:hover .headerlink, .rst-content p.caption:hover .headerlink {
   display: inline-block;
 }
+.rst-content .centered {
+  text-align: center;
+}
 .rst-content .sidebar {
   float: right;
   width: 40%;
@@ -5630,7 +5817,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 .rst-content table.docutils.citation, .rst-content table.docutils.footnote {
   background: none;
   border: none;
-  color: #999;
+  color: gray;
 }
 .rst-content table.docutils.citation td, .rst-content table.docutils.citation tr, .rst-content table.docutils.footnote td, .rst-content table.docutils.footnote tr {
   border: none;
@@ -5650,11 +5837,9 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 .rst-content table.field-list td {
   border: none;
-  padding-top: 5px;
 }
 .rst-content table.field-list td > strong {
   display: inline-block;
-  margin-top: 3px;
 }
 .rst-content table.field-list .field-name {
   padding-right: 10px;
@@ -5663,7 +5848,6 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 .rst-content table.field-list .field-body {
   text-align: left;
-  padding-left: 0;
 }
 .rst-content tt, .rst-content tt, .rst-content code {
   color: #000;
@@ -5699,7 +5883,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   margin-bottom: 24px;
 }
 .rst-content dl:not(.docutils) dt {
-  display: inline-block;
+  display: table;
   margin: 6px 0;
   font-size: 90%;
   line-height: normal;
@@ -5782,6 +5966,18 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before {
   margin-right: 4px;
 }
+.rst-content .guilabel {
+  border: 1px solid #7fbbe3;
+  background: #e7f2fa;
+  font-size: 80%;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2.4px 6px;
+  margin: auto 2px;
+}
+.rst-content .versionmodified {
+  font-style: italic;
+}
 
 @media screen and (max-width: 480px) {
   .rst-content .sidebar {
@@ -5819,6 +6015,18 @@ span[id*='MathJax-Span'] {
   font-style: normal;
   font-weight: 700;
   src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/Lato-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(../fonts/Lato-Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(../fonts/Lato-BoldItalic.ttf) format("truetype");
 }
 @font-face {
   font-family: "Roboto Slab";
