@@ -124,6 +124,14 @@
           {% endblock %}
         </div>
 
+        {% if theme_esdc_nav %}
+        <div id="esdc-nav">
+          <div id="esdc-nav-wrapper">
+            <ul><li><a href="https://danubecloud.org">Home</a></li><li><a href="https://docs.danubecloud.org/user-guide">User Guide</a></li><li><a href="https://docs.danubecloud.org/api-reference">API Reference</a></li><li><a href="https://github.com/erigones/esdc-ce/wiki">Wiki</a></li></ul>
+          </div>
+        </div>
+        {% endif %}
+
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           {% block menu %}
             {#
@@ -154,6 +162,7 @@
         {% endblock %}
       </nav>
 
+
       {# PAGE CONTENT #}
       <div class="wy-nav-content">
         <div class="rst-content">
@@ -169,19 +178,6 @@
           {% include "footer.html" %}
         </div>
       </div>
-
-      {% if theme_esdc_nav %}
-      <div id="esdc-nav">
-        <div id="esdc-nav-wrapper">
-          <ul>
-            <li><a href="https://danubecloud.com">Enterprise Edition</a></li>
-            <li><a href="https://danubecloud.org">Community Edition</a></li>
-            <li><a href="https://docs.danubecloud.org/user-guide">User Guide</a></li>
-            <li><a href="https://docs.danubecloud.org/api-reference">API Reference</a></li>
-          </ul>
-        </div>
-      </div>
-      {% endif %}
 
     </section>
 
@@ -224,16 +220,7 @@
   {%- block footer %} {% endblock %}
 
   {% if theme_analytics_id %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '{{ theme_analytics_id }}', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  <script type="text/javascript" src="{{ pathto('_static/js/ga.js', 1) }}"></script>
   {% endif %}
 
 </body>
